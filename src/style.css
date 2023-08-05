@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* selector universal */
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Formato títulos */
+h1 {
+  background-color: #b9b9b9;
+  line-height: 2.2em;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+h2 {
+  background-color: #dfdbdb;
+  line-height: 2.2em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+  animation-name: gradienDiv;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+
+h3 {
+  background-color: #dfdbdb;
+  line-height: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal;
+  animation-name: textOpacity;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+
+h4 {
+  background-color: #dfdbdb;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+/* configuración de tema de fondo */
+body {
+  background-image: url(../img/backgrounds/restaurant_icons.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  margin: 10px 0;
+}
+
+/* márgenes de los trextos */
+p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* formato fuente hipervínculos */
+a {
+  margin-top: 0px;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* formato de las imágenes en las publicaciones  */
+.imagenReceta {
+  width: 100%;
+  height: 270px;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 10px;
+  object-fit: cover;
+  align-items: center;
+}
+
+/* formato imágen de perfil rediondeado */
+.circle {
+  background-color: #b9b9b9;
+  border-radius: 50%;
+  width: 20%;
+  border-width: 10px;
+}
+
+/* formato para que tabla pueda hacer scroll en responsive */
+.scrollbar {
+  position: relative;
+  overflow: auto;
+}
+
+.wrapper-scroll-y {
+  display: block;
+}
+
+/* Formato de controles de carousel para que contraste con el fondo*/
+.carousel-control-icon {
+  filter: invert(1);
+}
+
+/* Contenedor de publicaciones flex*/
+.contenedor {
+  height: auto;
+  width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+  border: solid 1px #dfdbdb;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, white, #dfdbdb);
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor:hover {
+  transform: translate(-5px, -5px);
+  transition: all 1s;
+}
+
+.gradiente {
+  background-image: linear-gradient(to top, white, #dfdbdb);
+}
+
+.gradiente:hover {
+  transform: translate(-5px, -5px);
+  transition: all 1s;
+}
+
+.rotate:hover {
+  transform: rotateZ(5deg);
+  transition: all 1s;
+}
+
+/* Contenedor de acciones flex div anidado dentro de contenedor de publicación */
+.accion {
+  display: flex;
+  flex-direction: row;
+}
+
+/* formato menú nav */
+nav {
+  background-color: #1d1d1f;
+  width: 100%;
+}
+
+/* para la url en el Buscar y cualquiera con fondo oscuro */
+.urlfondooscuro {
+  color: lightblue;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+@keyframes gradienDiv {
+  0% {
+    background-color: #b9b9b9;
+  }
+  25% {
+    background-color: #dfdbdb;
+  }
+  50% {
+    background-color: #dfdbdb;
+  }
+  75% {
+    background-color: #e4e0e0;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes textOpacity {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* formato accesos footer */
+ul li a {
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  left: 150px;
+}
+ul li a:hover {
+  font-size: 1.2em;
+  color: white;
+  background-color: #1d1d1f;
+  transition: all 1s;
+}
+
+/* diferentes footers para mobile y desktop */
+/* Footer Desktop */
+/* Footer Mobile  ToDO ver tema de como hacerlo sticky*/
+.footTwo, .footOne {
+  width: 100%;
+  text-align: center;
+  background-color: #b9b9b9;
+}
+
+.footOne {
+  background-color: #1d1d1f;
+  padding: 10px 10px;
+  height: auto;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* da formatro a imágenes ejemplo redes sociales*/
+.miniatura {
+  width: 64px;
+  height: 64px;
+}
+
+.miniatura:hover {
+  transform: skew(-10deg);
+  transition: all 1s;
+}
+
+
+
