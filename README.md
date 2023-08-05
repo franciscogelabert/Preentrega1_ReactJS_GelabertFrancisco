@@ -1,8 +1,17 @@
-# React + Vite
+Preentrega 1 - Francisco Gelabert - ReactJS Comisión 47155  | Coderhouse 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Foodier
 
-Currently, two official plugins are available:
+Primer PreEntrega ReactJS - Gelabert Francisco - JS Comisión 47155  | Coderhouse
+01- Datos para acceder a la entrega
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Github
+
+https://franciscogelabert.github.io/Preentrega1_ReactJS_GelabertFrancisco/
+
+
+
+02- Descripción entrega inicial
+
+El objetivo es desarrollar una página con contendo relacionado a salud y alimentación.
+
