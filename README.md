@@ -1,14 +1,11 @@
-Preentrega 1 - Francisco Gelabert - ReactJS Comisión 47155  | Coderhouse 
+# Foodier
 
-Foodier
+*Primera PreEntrega - Gelabert Francisco - ReactJS Comisión 47155 - Coderhouse*
 
-Primer PreEntrega ReactJS - Gelabert Francisco - JS Comisión 47155  | Coderhouse
-
-01- Descripción entrega inicial
-
+## 01- Descripción entrega inicial
 El objetivo es desarrollar una página con contendo relacionado a salud y alimentación.
 
-02- Deploy en Vercel
+## 01- Deploy Vercel
 
-https://preentrega1-react-js-gelabert-francisco.vercel.app/
+Deployment: https://preentrega1-react-js-gelabert-francisco.vercel.app/
 
