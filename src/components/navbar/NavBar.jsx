@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar sticky-top navbar-expand-lg flex-row">
         <div className="container-fluid justify-content-between">
-         <Logo />
+         <Logo/>
            <ItemListContainer
             menu1="Home"
             menu2="Mi Perfil"
