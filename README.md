@@ -8,3 +8,7 @@ Primer PreEntrega ReactJS - Gelabert Francisco - JS Comisión 47155  | Coderhous
 
 El objetivo es desarrollar una página con contendo relacionado a salud y alimentación.
 
+02- Deploy en Vercel
+
+https://preentrega1-react-js-gelabert-francisco.vercel.app/
+
